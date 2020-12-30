@@ -1,0 +1,3 @@
+sudo apt purge command-not-found
+sudo apt --purge autoremove
+sudo bash -c 'apt update && apt full-upgrade && apt autoremove && apt clean'
