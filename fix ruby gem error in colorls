@@ -1,0 +1,6 @@
+error message:
+can't find gem bundler (>= 0.a) with executable bundle (gem::gemnotfoundexception)
+
+
+to fix them:
+$sudo gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
