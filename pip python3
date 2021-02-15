@@ -1,0 +1,15 @@
+solution for pip3 error for running pip3 after first installed
+
+"""
+error:
+
+ Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'setuptools'
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-install-c3j42jmv/tornado/
+"""
+solution:
+$> sudo python3 -m pip install -U pip
+$> sudo python3 -m pip install -U setuptools
