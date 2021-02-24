@@ -1,0 +1,7 @@
+error:
+-sh: 20: /etc/profile.d/orangepi-check-first-login.sh: Syntax error: "(" unexpected
+
+cause: default shell in ubuntu is dash, change to bash by configure "no" to default sh
+
+solution:
+sudo dpkg-reconfigure dash
